@@ -9,6 +9,43 @@ package Web.Entidades;
  *
  * @author Kill
  */
-public class Usuario {
+public class Usuario 
+{
+    private String id_usuario, contrasenia;
+    private char rol;
+
+    public Usuario() {
+    }
+
+    public Usuario(String id_usuario, String contrasenia, char rol) {
+        this.id_usuario = id_usuario;
+        this.contrasenia = contrasenia;
+        this.rol = rol;
+    }
+
+    public String getId_usuario() {
+        return id_usuario;
+    }
+
+    public void setId_usuario(String id_usuario) {
+        this.id_usuario = id_usuario;
+    }
+
+    public String getContrasenia() {
+        return contrasenia;
+    }
+
+    public void setContrasenia(String contrasenia) {
+        this.contrasenia = contrasenia;
+    }
+
+    public char getRol() {
+        return rol;
+    }
+
+    public void setRol(char rol) {
+        this.rol = rol;
+    }
+    
     
 }
