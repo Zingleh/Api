@@ -46,7 +46,7 @@ public class DetalleOrden_CompraDatos {
         return resultado;
     }
     
-    public int eliminarDetalleOrden (Integer Fk_id_orden_compra){
+    public int eliminarDetalleOrden (String Fk_id_orden_compra){
         int resultado = 0;
         String sql = "DELETE detalle_orden_compra where orden_compra_id_ordencom = '" + Fk_id_orden_compra + "'";
         Connection cn = Conexion.Miconexion();

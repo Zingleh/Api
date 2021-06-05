@@ -4,8 +4,62 @@
     <service name="ArticuloWS">
       <implementation-class>Web.Service.ArticuloWS</implementation-class>
     </service>
-    <service name="NewWebService">
-      <implementation-class>Web.Service.NewWebService</implementation-class>
+    <service name="DetalleOrdenCWS">
+      <implementation-class>Web.Service.DetalleOrdenCWS</implementation-class>
+    </service>
+    <service name="DetalleFacturaClienteWS">
+      <implementation-class>Web.Service.DetalleFacturaClienteWS</implementation-class>
+    </service>
+    <service name="DetalleFacturaProveedorWS">
+      <implementation-class>Web.Service.DetalleFacturaProveedorWS</implementation-class>
+    </service>
+    <service name="DetallePedidoWS">
+      <implementation-class>Web.Service.DetallePedidoWS</implementation-class>
+    </service>
+    <service name="EmpleadoHostalWS">
+      <implementation-class>Web.Service.EmpleadoHostalWS</implementation-class>
+    </service>
+    <service name="FacturaWS">
+      <implementation-class>Web.Service.FacturaWS</implementation-class>
+    </service>
+    <service name="HabitacionWS">
+      <implementation-class>Web.Service.HabitacionWS</implementation-class>
+    </service>
+    <service name="HuespedWS">
+      <implementation-class>Web.Service.HuespedWS</implementation-class>
+    </service>
+    <service name="NotaCreditoWS">
+      <implementation-class>Web.Service.NotaCreditoWS</implementation-class>
+    </service>
+    <service name="OrdenCompraWS">
+      <implementation-class>Web.Service.OrdenCompraWS</implementation-class>
+    </service>
+    <service name="OrdenPedidoWS">
+      <implementation-class>Web.Service.OrdenPedidoWS</implementation-class>
+    </service>
+    <service name="pagoWS">
+      <implementation-class>Web.Service.pagoWS</implementation-class>
+    </service>
+    <service name="PlatoWS">
+      <implementation-class>Web.Service.PlatoWS</implementation-class>
+    </service>
+    <service name="ProveedorWS">
+      <implementation-class>Web.Service.ProveedorWS</implementation-class>
+    </service>
+    <service name="ReservaWS">
+      <implementation-class>Web.Service.ReservaWS</implementation-class>
+    </service>
+    <service name="ServicioComidaWS">
+      <implementation-class>Web.Service.ServicioComidaWS</implementation-class>
+    </service>
+    <service name="TipoHabitacionWS">
+      <implementation-class>Web.Service.TipoHabitacionWS</implementation-class>
+    </service>
+    <service name="UsuarioWS">
+      <implementation-class>Web.Service.UsuarioWS</implementation-class>
+    </service>
+    <service name="EmpresaWS">
+      <implementation-class>Web.Service.EmpresaWS</implementation-class>
     </service>
   </services>
   <clients/>
