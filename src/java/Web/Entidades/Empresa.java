@@ -11,13 +11,14 @@ package Web.Entidades;
  */
 public class Empresa 
 {
-    private String rut_empresa, nombre_empresa, razon_social, direccion, telefono, fk_id_usuario;
+    private String rut_empresa,correo, nombre_empresa, razon_social, direccion, telefono, fk_id_usuario;
 
     public Empresa() {
     }
 
-    public Empresa(String rut_empresa, String nombre_empresa, String razon_social, String direccion, String telefono, String fk_id_usuario) {
+    public Empresa(String rut_empresa,String correo, String nombre_empresa, String razon_social, String direccion, String telefono, String fk_id_usuario) {
         this.rut_empresa = rut_empresa;
+        this.correo = correo;
         this.nombre_empresa = nombre_empresa;
         this.razon_social = razon_social;
         this.direccion = direccion;
@@ -31,6 +32,14 @@ public class Empresa
 
     public void setRut_empresa(String rut_empresa) {
         this.rut_empresa = rut_empresa;
+    }
+    
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
     }
 
     public String getNombre_empresa() {

@@ -13,12 +13,12 @@ public class Tipo_Habitacion
 {
     private String tipo_cama, fk_id_habitacion;
     private int cantidad_baño, precio;
-    private char tipo_tv, tipo_wifi;
+    private String tipo_tv, tipo_wifi;
 
     public Tipo_Habitacion() {
     }
 
-    public Tipo_Habitacion(String tipo_cama, String fk_id_habitacion, int cantidad_baño, int precio, char tipo_tv, char tipo_wifi) {
+    public Tipo_Habitacion(String tipo_cama, String fk_id_habitacion, int cantidad_baño, int precio, String tipo_tv, String tipo_wifi) {
         this.tipo_cama = tipo_cama;
         this.fk_id_habitacion = fk_id_habitacion;
         this.cantidad_baño = cantidad_baño;
@@ -59,19 +59,19 @@ public class Tipo_Habitacion
         this.precio = precio;
     }
 
-    public char getTipo_tv() {
+    public String getTipo_tv() {
         return tipo_tv;
     }
 
-    public void setTipo_tv(char tipo_tv) {
+    public void setTipo_tv(String tipo_tv) {
         this.tipo_tv = tipo_tv;
     }
 
-    public char getTipo_wifi() {
+    public String getTipo_wifi() {
         return tipo_wifi;
     }
 
-    public void setTipo_wifi(char tipo_wifi) {
+    public void setTipo_wifi(String tipo_wifi) {
         this.tipo_wifi = tipo_wifi;
     }
     

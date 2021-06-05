@@ -13,12 +13,12 @@ public class Empleado_Hostal
 {
     private String id_trabajador, fk_id_usuario;
     private int sueldo;
-    private char cargo;
+    private String cargo;
 
     public Empleado_Hostal() {
     }
 
-    public Empleado_Hostal(String id_trabajador, String fk_id_usuario, int sueldo, char cargo) {
+    public Empleado_Hostal(String id_trabajador, String fk_id_usuario, int sueldo, String cargo) {
         this.id_trabajador = id_trabajador;
         this.fk_id_usuario = fk_id_usuario;
         this.sueldo = sueldo;
@@ -49,11 +49,11 @@ public class Empleado_Hostal
         this.sueldo = sueldo;
     }
 
-    public char getCargo() {
+    public String getCargo() {
         return cargo;
     }
 
-    public void setCargo(char cargo) {
+    public void setCargo(String cargo) {
         this.cargo = cargo;
     }
     

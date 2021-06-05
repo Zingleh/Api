@@ -12,12 +12,12 @@ package Web.Entidades;
 public class Usuario 
 {
     private String id_usuario, contrasenia;
-    private char rol;
+    private String rol;
 
     public Usuario() {
     }
 
-    public Usuario(String id_usuario, String contrasenia, char rol) {
+    public Usuario(String id_usuario, String contrasenia, String rol) {
         this.id_usuario = id_usuario;
         this.contrasenia = contrasenia;
         this.rol = rol;
@@ -39,11 +39,11 @@ public class Usuario
         this.contrasenia = contrasenia;
     }
 
-    public char getRol() {
+    public String getRol() {
         return rol;
     }
 
-    public void setRol(char rol) {
+    public void setRol(String rol) {
         this.rol = rol;
     }
     

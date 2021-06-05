@@ -11,13 +11,13 @@ package Web.Entidades;
  */
 public class Habitacion 
 {
-    private String id_habitacion;
-    private char tamaño, estado;
+    private String id_habitacion , tamaño , estado;
+    
 
     public Habitacion() {
     }
 
-    public Habitacion(String id_habitacion, char tamaño, char estado) {
+    public Habitacion(String id_habitacion, String tamaño, String estado) {
         this.id_habitacion = id_habitacion;
         this.tamaño = tamaño;
         this.estado = estado;
@@ -31,19 +31,19 @@ public class Habitacion
         this.id_habitacion = id_habitacion;
     }
 
-    public char getTamaño() {
+    public String getTamaño() {
         return tamaño;
     }
 
-    public void setTamaño(char tamaño) {
+    public void setTamaño(String tamaño) {
         this.tamaño = tamaño;
     }
 
-    public char getEstado() {
+    public String getEstado() {
         return estado;
     }
 
-    public void setEstado(char estado) {
+    public void setEstado(String estado) {
         this.estado = estado;
     }
     
